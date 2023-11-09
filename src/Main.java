@@ -6,6 +6,10 @@ public class Main {
         
         myParent.cook();
         myParent.clean();
-    }
-    
+        
+        Child myChild = new Child("Baby Raiden");
+        
+        myChild.play();
+        myChild.eat();
+    }  
 }
